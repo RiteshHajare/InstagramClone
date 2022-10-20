@@ -1,0 +1,356 @@
+/* Login CSS */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.loginPage {
+    background-color: aqua;
+    height: 100%;
+}
+
+.makeFlex {
+    display: flex;
+}
+
+.flex1 img {
+    height: 100vh;
+    width: 50vw;
+}
+
+.flex2 {
+    margin-top: 8rem;
+    margin-left: 12rem;
+}
+
+.middle {
+    margin: 2rem 0;
+}
+
+.flex2 input {
+    width: 19rem;
+    height: 2rem;
+}
+
+.pass {
+    position: relative;
+    right: 2.3rem;
+}
+
+.loginButton {
+    cursor: pointer;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 6px;
+    position: relative;
+    top: 1rem;
+    left: 18rem;
+    color: black;
+    background-color: blueviolet;
+    font-size: 1rem;
+}
+
+.moveLogin {
+    position: relative;
+    left: -1rem;
+}
+
+.loginh4 {
+    margin-left: 5rem;
+    margin-top: 2rem;
+    color: rgb(255, 72, 72);
+}
+
+.flex2 strong {
+    font-size: 1.2rem;
+}
+
+.linkToRegister {
+    position: relative;
+    top: 1rem;
+    bottom: 4rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.username {
+    position: relative;
+    right: 2.4rem;
+}
+
+.usernameLabel {
+    position: relative;
+    right: 2rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+.errP {
+    margin-top: 1rem;
+    color: red;
+}
+
+.alignLeft {
+    position: relative;
+    right: 2.44rem;
+}
+
+.userProfile {
+    border-radius: 50%;
+    height: 6vw;
+    width: 6vw;
+    position: absolute;
+    right: 1rem;
+    top: 0;
+}
+
+.userProfileCard {
+    height: 20vw;
+    background-color: #ededed;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 1rem;
+}
+
+.userProfileCard:hover {
+    box-shadow: 1px 1px 3px #888888;
+}
+
+.profileCardDiv1 {
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.profileCardDiv2 {
+    position: absolute;
+    right: 0;
+    min-height: 100%;
+    width: 55%;
+
+
+}
+
+.profileCardDiv2 .name {
+    margin-top: 1rem;
+    letter-spacing: 2px;
+    text-shadow: 1rem;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.followers {
+    display: inline-block;
+
+}
+
+.following {
+    display: inline-block;
+    margin-left: 5rem;
+
+}
+
+.posts {
+    margin-left: 6.3rem;
+}
+
+.askingforpost {
+    position: relative;
+    left: 37vw;
+    top: 2rem;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.createPost {
+    background-color: #ededed;
+    min-height: 65vh;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 18%;
+}
+
+.createPost:hover {
+    box-shadow: 2px 3px 8px #888888;
+}
+
+.createPostTitle {
+    position: relative;
+    left: 43%;
+    margin-top: 0;
+    display: inline-block;
+}
+
+#Title {
+    position: absolute;
+    bottom: 7rem;
+    left: 30%;
+    width: 40%;
+    height: 1.5rem;
+}
+
+#textarea {
+    position: absolute;
+    top: 73%;
+    left: 30%;
+    width: 40%;
+}
+
+.sbtBtn {
+    position: absolute;
+    bottom: 0.3rem;
+    left: 45%;
+}
+
+
+
+.singlePostText h1 {
+    margin-top: 0;
+}
+
+.singlePost {
+    background-color: #f0f8ff;
+    width: 40%;
+    position: relative;
+    left: 35%;
+    display: flex;
+    margin: 1.5rem 0;
+
+}
+
+.forBorder {
+    border-style: groove none groove groove;
+
+}
+
+.err {
+    position: absolute;
+    bottom: 1.1rem;
+    left: 38%;
+    color: rgb(239, 75, 75);
+}
+
+.singlePostText {
+    background-color: #f5f5dc;
+    padding: 1rem;
+    text-align: center;
+    min-width: 100%;
+    border-style: groove;
+}
+
+.singlePost .userPic {
+    border-radius: 50%;
+    height: 3rem;
+}
+
+.postImage {
+    border-radius: 0.5rem;
+
+}
+
+.homePagenav {
+    background-color: #add8e6;
+    height: 5rem;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.closeBtn:hover {
+    background-color: rgb(227, 70, 65);
+}
+
+.myPosts {
+    position: absolute;
+    top: 17rem;
+    left: 48%;
+}
+
+.userPosts {
+    margin-top: 6rem;
+}
+
+.createPostBar {
+    margin-bottom: 24rem;
+    margin-left: 4rem;
+}
+
+.alignUsername {
+    text-align: center;
+    width: 17rem;
+
+}
+
+.mapAllPosts {
+    margin-right: 8rem;
+}
+
+.followBtn {
+    display: inline-block;
+    background-color: #29bbff;
+    width: 5rem;
+    cursor: pointer !important;
+    height: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 3px;
+    position: absolute;
+    bottom: 2rem;
+    left: 53%;
+}
+
+.followBtn:hover {
+    background-color: #007bff;
+}
+
+.forDynamicProfile {
+    position: absolute;
+    top: 19%;
+    padding: 4rem 0;
+
+}
+
+.forDynamicProfile .followBtn {
+
+    position: absolute;
+    bottom: 6rem;
+    left: 52.6%;
+}
+
+.logoutBtn {
+    position: relative;
+    top: 35%;
+    left: 5%;
+    padding: 5px;
+}
+
+.errPage {
+    height: 100vh;
+    text-align: center;
+}
+
+.errPage h1 {
+    position: relative;
+    top: 40%;
+
+}
+
+.errPage h3 {
+    position: relative;
+    top: 45%;
+
+}
+
+.errPageLink {
+    position: absolute;
+    left: 45%;
+    top: 10%;
+}
